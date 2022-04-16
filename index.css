@@ -1,0 +1,114 @@
+body{
+    background-color: teal;
+}
+
+#todo-list{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todo-card{
+    width: 400px;
+    background-color:lightgreen;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 5px solid white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.todo-card:hover{
+    border: 5px solid rgb(183, 52, 131);
+    background-color:aquamarine;
+    cursor: pointer;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: red;
+    border-width: 0px;
+}
+
+#heading1{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 5px 5px 5px black;
+}
+
+#inp{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+@media(min-width:320px){
+    #icon{
+        position: relative;
+        left: 270px;
+        top: -34px;
+    }
+}
+
+@media(min-width:400px){
+    .todo-card{
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    #inp{
+        margin-top: 10px;
+    }
+
+    #icon{
+        position: relative;
+        left: 340px;
+        top: -32px;
+    }
+}
+
+@media(min-width:450px){
+    #icon{
+        position: relative;
+        left: -40px;
+        top: 8px;
+    }
+}
+
+@media(min-width:480px){
+    #icon{
+        position: relative;
+        left: -40px;
+        top: 8px;
+    }
+}
+
+
+@media(min-width:550px){
+    .todo-card{
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    #inp{
+        margin-top: 10px;
+    }
+
+    #icon{
+        position: relative;
+        left: -40px;
+        top: 8px;
+    }
+}
